@@ -24,3 +24,14 @@ def get_choose(go):
         elif i%2!=0 and go==False:
             result += str(i) + ' '
     return result
+
+def get_mistake():
+    x = random.randint(1,30)
+    y = random.randint(0,1)
+    print(f"Trying operation {x}/{y}...")
+    try:
+        result = x/y
+    except ZeroDivisionError:
+        return 0
+    else:
+        return  1

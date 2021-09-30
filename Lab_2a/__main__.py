@@ -43,4 +43,8 @@ if __name__ == '__main__':
         how_to_write_logs()
     else:
         main(args.opt)
+    if common.get_mistake():
+        logging.info("Error didn`t occured")
+    else:
+        logging.error("Error occured!")
     print("test")
