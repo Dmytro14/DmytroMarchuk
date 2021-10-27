@@ -39,9 +39,11 @@ def main(url=''):
     return True
 
 
-def home_work():
-    # Ваш захист
-    pass
+def home_work(t):
+    if 'PM' in t:
+        print("Доброї ночі")
+    if 'AM' in t:
+        print("Доброго ранку")
 
 
 def my_good_fun():
