@@ -10,3 +10,18 @@ pipenv shell
 
 pipenv install requests
 pipenv install ntplib
+
+
+    Створив файл app.py. 
+    Переконався що програма працює правильно.
+
+python app.py
+
+========================================
+Результат без параметрів: 
+No URL passed to function
+========================================
+Результат з правильною URL: 
+Time is:  03:59:29 PM
+Date is:  10-27-2021
+success
