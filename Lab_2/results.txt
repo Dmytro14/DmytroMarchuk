@@ -1,0 +1,31 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.10, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
+rootdir: /home/dmytro/Стільниця/reps/DmytroMarchuk/Lab_2
+collected 5 items
+
+tests/tests.py ..F..                                                     [100%]
+
+=================================== FAILURES ===================================
+___________________________ TestClass.test_home_work ___________________________
+
+self = <tests.tests.TestClass testMethod=test_home_work>
+
+    def test_home_work(self):
+        # Ваш захист
+>       self.assertEqual(home_work("20:20:20 PM"), "Доброї ночі")
+E       AssertionError: None != 'Доброї ночі'
+
+tests/tests.py:26: AssertionError
+----------------------------- Captured stdout call -----------------------------
+Доброї ночі
+=========================== short test summary info ============================
+FAILED tests/tests.py::TestClass::test_home_work - AssertionError: None != 'Д...
+========================= 1 failed, 4 passed in 0.75s ==========================
+========================================
+Результат без параметрів: 
+No URL passed to function
+========================================
+Результат з правильною URL: 
+Time is:  04:44:54 PM
+Date is:  10-27-2021
+success
