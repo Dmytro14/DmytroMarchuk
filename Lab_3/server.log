@@ -1,0 +1,67 @@
+INFO 2021-11-01 15:59:57,993 root : Сервер доступний. Час на сервері: test1
+INFO 2021-11-01 15:59:57,994 root : Запитувана сторінка: : test2
+INFO 2021-11-01 15:59:57,994 root : Відповідь сервера місти наступні поля:
+INFO 2021-11-01 15:59:57,994 root : Ключ: date, Значення: test1
+INFO 2021-11-01 15:59:57,994 root : Ключ: current_page, Значення: test2
+INFO 2021-11-01 15:59:57,994 root : Ключ: server_info, Значення: test3
+INFO 2021-11-01 15:59:57,994 root : Ключ: client_info, Значення: test4
+ERROR 2021-11-01 16:46:07,540 root : Server is not running
+ERROR 2021-11-01 16:46:47,732 root : Server is not running
+ERROR 2021-11-01 16:47:07,603 root : Server is not running
+INFO 2021-11-01 16:48:07,674 root : Сервер доступний. Час на сервері: 2021-11-01T14:48:07.671424
+INFO 2021-11-01 16:48:07,674 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-11-01 16:48:07,674 root : Відповідь сервера місти наступні поля:
+INFO 2021-11-01 16:48:07,674 root : Ключ: datetime, Значення: 2021-11-01T14:48:07.671424
+INFO 2021-11-01 16:48:07,674 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-11-01 16:48:07,674 root : Ключ: server_iinfo, Значення: {'system': 'posix'}
+INFO 2021-11-01 16:48:07,674 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.22.0', 'remote addr': '127.0.0.1'}
+ERROR 2021-11-01 16:52:26,733 root : Server is not running
+ERROR 2021-11-01 16:53:26,795 root : Server is not running
+INFO 2021-11-01 16:54:26,868 root : Сервер доступний. Час на сервері: 2021-11-01T14:54:26.863618
+INFO 2021-11-01 16:54:26,869 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2021-11-01 16:54:26,869 root : Відповідь сервера місти наступні поля:
+INFO 2021-11-01 16:54:26,869 root : Ключ: datetime, Значення: 2021-11-01T14:54:26.863618
+INFO 2021-11-01 16:54:26,869 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2021-11-01 16:54:26,869 root : Ключ: server_iinfo, Значення: {'system': 'posix'}
+INFO 2021-11-01 16:54:26,869 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.22.0', 'remote addr': '127.0.0.1'}
+ERROR 2021-11-01 16:55:26,932 root : Server is not running
+ERROR 2021-11-01 16:56:07,770 root : Server is not running
+ERROR 2021-11-01 16:56:26,996 root : Server is not running
+ERROR 2021-11-01 16:57:07,831 root : Server is not running
+ERROR 2021-11-01 16:57:27,058 root : Server is not running
+ERROR 2021-11-01 16:58:27,122 root : Server is not running
+ERROR 2021-11-01 16:59:27,185 root : Server is not running
+ERROR 2021-11-01 17:00:27,253 root : Server is not running
+ERROR 2021-11-01 17:01:27,313 root : Server is not running
+ERROR 2021-11-01 17:02:27,374 root : Server is not running
+ERROR 2021-11-01 17:03:27,437 root : Server is not running
+ERROR 2021-11-01 17:04:27,501 root : Server is not running
+ERROR 2021-11-01 17:21:54,994 root : Server is unavailable :(
+ERROR 2021-11-01 17:22:08,789 root : Server is unavailable :(
+ERROR 2021-11-01 17:26:21,745 root : Server is unavailable :(
+ERROR 2021-11-01 17:26:30,573 root : Server is unavailable :(
+ERROR 2021-11-01 17:26:42,477 root : Server is unavailable :(
+INFO 2021-11-01 17:27:12,431 root : Server is available. Server time: 2021-11-01 15:27:12
+INFO 2021-11-01 17:27:12,432 root : Requested page: : http://localhost:8000/health/
+INFO 2021-11-01 17:27:12,432 root : Server response keys:
+INFO 2021-11-01 17:27:12,432 root : Key: date, Value: 2021-11-01 15:27:12
+INFO 2021-11-01 17:27:12,432 root : Key: current_page, Value: http://localhost:8000/health/
+INFO 2021-11-01 17:27:12,432 root : Key: server_info, Value: ['Linux', 'dmytro-VirtualBox', '5.11.0-37-generic', '#41~20.04.2-Ubuntu SMP Fri Sep 24 09:06:38 UTC 2021', 'x86_64']
+INFO 2021-11-01 17:27:12,432 root : Key: client_info, Value: python-requests/2.22.0
+INFO 2021-11-01 17:28:12,508 root : Server is available. Server time: 2021-11-01 15:28:12
+INFO 2021-11-01 17:28:12,508 root : Requested page: : http://localhost:8000/health/
+INFO 2021-11-01 17:28:12,509 root : Server response keys:
+INFO 2021-11-01 17:28:12,509 root : Key: date, Value: 2021-11-01 15:28:12
+INFO 2021-11-01 17:28:12,509 root : Key: current_page, Value: http://localhost:8000/health/
+INFO 2021-11-01 17:28:12,509 root : Key: server_info, Value: ['Linux', 'dmytro-VirtualBox', '5.11.0-37-generic', '#41~20.04.2-Ubuntu SMP Fri Sep 24 09:06:38 UTC 2021', 'x86_64']
+INFO 2021-11-01 17:28:12,509 root : Key: client_info, Value: python-requests/2.22.0
+ERROR 2021-11-01 17:35:02,324 root : Server is unavailable
+ERROR 2021-11-01 17:35:56,478 root : Server is unavailable
+INFO 2021-11-01 17:36:09,380 root : Server is available. Server time: 2021-11-01 15:36:09
+INFO 2021-11-01 17:36:09,380 root : Requested page: : http://localhost:8000/health/
+INFO 2021-11-01 17:36:09,380 root : Server response keys:
+INFO 2021-11-01 17:36:09,380 root : Key: date, Value: 2021-11-01 15:36:09
+INFO 2021-11-01 17:36:09,380 root : Key: current_page, Value: http://localhost:8000/health/
+INFO 2021-11-01 17:36:09,380 root : Key: server_info, Value: ['Linux', 'dmytro-VirtualBox', '5.11.0-37-generic', '#41~20.04.2-Ubuntu SMP Fri Sep 24 09:06:38 UTC 2021', 'x86_64']
+INFO 2021-11-01 17:36:09,381 root : Key: client_info, Value: python-requests/2.22.0
+ERROR 2021-11-01 17:37:09,444 root : Server is unavailable
