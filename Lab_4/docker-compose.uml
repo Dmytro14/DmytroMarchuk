@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.site
-    image: yatsynychroman/devops_course:django
+    image: dmytomarchuk/labs:django
     container_name: django
     networks:
       - public
@@ -14,7 +14,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.monitoring
-    image: yatsynychroman/devops_course:monitoring
+    image: dmytomarchuk/labs:monitoring
     container_name: monitoring
     network_mode: host
     volumes:
